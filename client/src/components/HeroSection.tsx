@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button';
-import HERO_IMAGE from "../assets/Design sem nome (1) (1).png";
-/**
+import HERO_IMAGE from "../assets/hero.png";/**
  * Hero Section Component
  * Design: Pantoja à esquerda, copy + CTA à direita
  * Headline em 3 linhas: "Transforme seu" / "tempo livre em" / "RENDA EXTRA"
