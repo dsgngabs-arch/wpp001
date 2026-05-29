@@ -1,5 +1,5 @@
 import { MessageCircle, FileText, Rocket } from 'lucide-react';
-
+import HOW_BG from "../assets/3e8c9d11-df01-4562-91e2-963f27a93b4e (1).png";
 /**
  * How It Works Section Component
  * Design: 3 passos com ícones e conexões visuais
@@ -32,7 +32,7 @@ export default function HowItWorksSection() {
     <section 
       className="relative w-full py-20 lg:py-32 overflow-hidden"
       style={{
-        backgroundImage: 'url(/manus-storage/mrbet-neon-bg_5a469d95.png)',
+        backgroundImage: `url("${HOW_BG}")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
