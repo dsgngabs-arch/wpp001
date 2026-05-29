@@ -3,7 +3,7 @@
  * Design: Visual premium escuro com aviso legal
  * Cores: Azul/Amarelo com branco para texto
  */
-
+import FOOTER_LOGO from "../assets/pasted_file_DzZJei_image.png";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Logo e Descrição */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src="/manus-storage/mrbet-logo_99908640.png" alt="MRBET Logo" className="h-12 w-auto" />
+              <img src={FOOTER_LOGO} alt="MRBET Logo" className="h-12 w-auto" />
             </div>
             <p className="text-gray-400 text-sm">
               A plataforma oficial para cambistas de apostas esportivas.
