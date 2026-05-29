@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { MessageCircle } from 'lucide-react';
-
+import BENEFITS_BG from "../assets/pasted_file_fGLn1h_image.png";
 /**
  * CTA Final Section Component
  * Design: Seção de encerramento com fundo branco/azul/amarelo
