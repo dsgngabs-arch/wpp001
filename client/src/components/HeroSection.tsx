@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-
+import HERO_IMAGE from "../assets/Design sem nome (1) (1).png";
 /**
  * Hero Section Component
  * Design: Pantoja à esquerda, copy + CTA à direita
@@ -13,7 +13,7 @@ export default function HeroSection() {
     <section 
       className="relative w-full min-h-screen overflow-hidden"
       style={{
-        backgroundImage: 'url(/manus-storage/pantoja-hero_89bc633e.png)',
+        backgroundImage: `url(${HERO_IMAGE})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
