@@ -1,5 +1,5 @@
 import { Zap, Gift, Zap as Lightning, Smartphone, Users, Clock } from 'lucide-react';
-
+import BENEFITS_BG from "../assets/pasted_file_fGLn1h_image.png";
 /**
  * Benefits Section Component
  * Design: Cards com fundo branco/azul/amarelo
