@@ -14,7 +14,7 @@ export default function CTAFinalSection() {
     <section 
       className="relative w-full py-20 lg:py-32 bg-white overflow-hidden"
       style={{
-        backgroundImage: 'url(/manus-storage/mrbet-white-bg_6b5819e0.png)',
+        backgroundImage: `url("${BENEFITS_BG}")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
